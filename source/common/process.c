@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
+#include <errno.h>  // Ajouter pour errno
 
 #include "common/utility.h"
 
@@ -47,6 +48,8 @@ pid_t start_process(char *argv[]) {
 		// Set group id of the children so that we
 		// can send around signals
 		if (setpgid(pid, parent_pid) == -1) {
+			 fprintf(stderr, "Warning: Could not set group id for child process: %s (errno: %d)\n", 
+            strerror(errno), errno);
 			throw("Could not set group id for child process");
 		}
 		// Replace the current process with the command
