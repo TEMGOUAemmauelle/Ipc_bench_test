@@ -85,10 +85,6 @@ Contributions are welcome, as long as they fit within the goal of this benchmark
 
 Just open an issues or send a pull request.
 
-## [License](http://goldsborough.mit-license.org)
-
-This project is released under the [MIT License](http://goldsborough.mit-license.org). For more information, see the LICENSE file.
-
 ## Authors
 
 [Peter Goldsborough](http://goldsborough.me) + [cat](https://goo.gl/IpUmJn) :heart:
