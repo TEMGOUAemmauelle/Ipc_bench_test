@@ -84,6 +84,12 @@ Some tests may have issues due to system limits, so you may want to re-run the s
 Contributions are welcome, as long as they fit within the goal of this benchmark: sequential single-node communication.
 
 Just open an issues or send a pull request.
+## License
+
+## License
+
+This project is licensed under the MIT License – see the [MIT LICENSE](MIT%20LICENSE) file for details.
+
 
 ## Authors
 
